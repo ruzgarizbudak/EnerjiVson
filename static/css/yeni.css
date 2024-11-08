@@ -9,14 +9,21 @@ span{
 
 }
 
-
+@keyframes yazi{
+    0%{
+        background-color: #6a0505;
+    }
+    100%{
+        background-color: #7f3f00;
+    }
+}
 .main__link {
     display: inline-block;
     text-decoration: none;
     padding: 20px 0;
     width: 300px;
     border-radius: 20px;
-    background-color: #6a0505;
+    animation: yazi 5s infinite;
     text-align: center;
     cursor: pointer;
     color: #fff;
