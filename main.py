@@ -75,4 +75,5 @@ def form2():
     return render_template('form2.html')
 
 
+app.run(debug=True,port=7777)
 
